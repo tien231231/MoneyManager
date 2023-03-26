@@ -1,0 +1,19 @@
+.App{
+height: 100vh;
+  
+  position: relative;
+  background: linear-gradient(to left, #d9a7c7, #fffcdc);
+  
+}
+main{
+    flex: 1;
+    
+    
+    backdrop-filter: blur(4.5px);
+    border-radius: 32px;
+    overflow-x: hidden;
+    
+  }
+  .jriFEe{
+    width:1500px !important
+  }
