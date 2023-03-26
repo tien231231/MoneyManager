@@ -12,7 +12,7 @@
 # Statistic Page
 ![Statistic](https://user-images.githubusercontent.com/37107401/224987982-9795597f-6461-4c78-b201-2df3b53dba2c.png)
 
-# InComes Page
+# In Come Page
 ![IncomesPage](https://user-images.githubusercontent.com/37107401/227793352-3951637c-39c3-417d-b0cc-0d79076ff8d1.png)
 
 # Expenses Page
