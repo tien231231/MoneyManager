@@ -16,8 +16,11 @@ app.use(express.json())
 app.use(cors())
 
 //routes
-readdirSync('./routes').map((route) => app.use('/api/v1', require('./routes/' + route)))
-
+readdirSync('./routes').map((route) => app.use('/', require('./routes/' + route)))
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+  });
+  
 const server = () => {
     
     app.listen(PORT, () => {
