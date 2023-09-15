@@ -15,7 +15,7 @@ function Navigation() {
     <>
       <NavStyled>
         <div className="user-con">
-          <img src={avatar} alt="" />
+          <img src={avatar} alt=""/>
           
           <div className="text">
             {user?.username ? <h2>{user.username}</h2> : <h2>...</h2>}

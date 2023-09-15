@@ -16,10 +16,10 @@ const Dashboard=()=> {
             navigate("/login")
         }else{
 
-            getIncomes()
-            getExpenses()
+            getIncomes(user?.accessToken)
+            getExpenses(user?.accessToken)
         }
-    }, [user])
+    }, [incomes,user,expenses])
 
     return ( 
     

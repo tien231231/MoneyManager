@@ -1,7 +1,7 @@
  import React, { useContext, useState } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/v1/";
+const BASE_URL = "https://m-m-be.onrender.com/";
 
 const GlobalContext = React.createContext();
 
@@ -37,6 +37,7 @@ export const GlobalProvider = ({ children }) => {
   };
   //calculate incomes
   const addIncome = async (income) => {
+    
     await axios
       .post(`${BASE_URL}add-income`, income, {
         headers: { token: `Bearer ${user.accessToken}` },
